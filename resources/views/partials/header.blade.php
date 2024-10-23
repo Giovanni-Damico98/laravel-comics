@@ -5,24 +5,15 @@
             <div class="header-logo">
                 <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="DC Logo" />
             </div>
-            <div class=w-100>
+            <div class="w-100 justify-content-center d-flex">
                 <ul class="nav-menu list-unstyled gap-3 d-flex ">
-                    <li><a href="">Characters</a></li>
-                    <li class="active"><a href="">Comics</a></li>
-                    <li><a href="">Movies</a></li>
-                    <li><a href="">TV</a></li>
-                    <li><a href="">Games</a></li>
-                    <li><a href="">Collectibles</a></li>
-                    <li><a href="">Videos</a></li>
-                    <li><a href="">Fans</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Shop</a></li>
+                    <li class="fw-bold fs-4 text-center"><a href="{{ route('pages.home') }}">HOME</a></li>
                 </ul>
             </div>
             <div class="w-25">
                 <form class="d-flex" role="search" id="search-bar">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success" type="submit">Cerca</button>
                 </form>
             </div>
         </nav>
