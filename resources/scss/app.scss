@@ -1,1 +1,16 @@
 @use "~bootstrap/scss/bootstrap" as *;
+@use "./pages/header.scss" as *;
+@use "./pages/footer.scss" as *;
+@use "./pages/home.scss" as *;
+
+footer {
+    @import "./pages/footer.scss";
+}
+
+header {
+    @import "./pages/header.scss";
+}
+
+header {
+    @import "./pages/home.scss";
+}

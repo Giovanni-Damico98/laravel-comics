@@ -1,0 +1,19 @@
+body {
+    background-color: hsl(0, 0%, 11%);
+}
+
+.card {
+    box-shadow: 1px 1px 10px rgb(173, 173, 173);
+    width: calc(100% / 4);
+    img {
+        height: 150px;
+        width: auto;
+    }
+    &:hover {
+        scale: 1.1;
+        cursor: pointer;
+    }
+    &:active {
+        scale: 1;
+    }
+}
